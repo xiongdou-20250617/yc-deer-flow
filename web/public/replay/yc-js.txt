@@ -1,0 +1,18 @@
+event: message_chunk
+data: {"thread_id": "S-Cc0WH29Sw8dmlXUWPbQ", "id": "run-e17aa6cd-dc71-4748-853a-1ae14dde2d56", "role": "user", "content": "幼儿园简单数学题 ：1+1 = ？不做解释，只给答案", "finish_reason": "stop"}
+
+event: message_chunk
+data: {"thread_id": "S-Cc0WH29Sw8dmlXUWPbQ", "agent": "coordinator", "id": "run-bf734aa0-2e3f-4317-91d2-053bbf5f172c", "role": "assistant"}
+
+event: message_chunk
+data: {"thread_id": "S-Cc0WH29Sw8dmlXUWPbQ", "agent": "coordinator", "id": "run-b2d115d2-52d5-4c83-8f7b-1c45df165475", "role": "assistant"}
+
+event: message_chunk
+data: {"thread_id": "S-Cc0WH29Sw8dmlXUWPbQ", "agent": "coordinator", "id": "run-b2d115d2-52d5-4c83-8f7b-1c45df165475", "role": "assistant", "content": "2"}
+
+event: message_chunk
+data: {"thread_id": "S-Cc0WH29Sw8dmlXUWPbQ", "agent": "coordinator", "id": "run-b2d115d2-52d5-4c83-8f7b-1c45df165475", "role": "assistant", "finish_reason": "stop"}
+
+event: message_chunk
+data: {"thread_id": "Tzu0oCMgjrI5UUFXQ646I", "agent": "reporter", "id": "run-3679b771-9bf9-4912-812b-87fa56d740a0", "role": "assistant", "finish_reason": "stop"}
+
