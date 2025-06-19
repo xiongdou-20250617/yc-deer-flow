@@ -37,48 +37,48 @@ export const graph: Graph = {
     {
       id: "Start",
       type: "circle",
-      data: { label: "Start" },
+      data: { label: "开始" },  // 翻译
       position: { x: -75, y: ROW_1 },
     },
     {
       id: "Coordinator",
-      data: { icon: MessageSquareQuote, label: "Coordinator" },
+      data: { icon: MessageSquareQuote, label: "协调员" },  // 翻译
       position: { x: 150, y: ROW_1 },
     },
     {
       id: "Planner",
-      data: { icon: Brain, label: "Planner" },
+      data: { icon: Brain, label: "规划员" },  // 翻译
       position: { x: 150, y: ROW_2 },
     },
     {
       id: "Reporter",
-      data: { icon: FilePen, label: "Reporter" },
+      data: { icon: FilePen, label: "报告员" },  // 翻译
       position: { x: 275, y: ROW_3 },
     },
     {
       id: "HumanFeedback",
-      data: { icon: UserCheck, label: "Human Feedback" },
+      data: { icon: UserCheck, label: "人工反馈" },  // 翻译
       position: { x: 25, y: ROW_4 },
     },
     {
       id: "ResearchTeam",
-      data: { icon: Users, label: "Research Team" },
+      data: { icon: Users, label: "研究团队" },  // 翻译
       position: { x: 25, y: ROW_5 },
     },
     {
       id: "Researcher",
-      data: { icon: Microscope, label: "Researcher" },
+      data: { icon: Microscope, label: "研究员" },  // 翻译
       position: { x: -75, y: ROW_6 },
     },
     {
       id: "Coder",
-      data: { icon: SquareTerminal, label: "Coder" },
+      data: { icon: SquareTerminal, label: "程序员" },  // 翻译
       position: { x: 125, y: ROW_6 },
     },
     {
       id: "End",
       type: "circle",
-      data: { label: "End" },
+      data: { label: "结束" },  // 翻译
       position: { x: 330, y: ROW_6 },
     },
   ],

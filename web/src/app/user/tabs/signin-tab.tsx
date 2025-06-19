@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: MIT
 
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Star } from "lucide-react";
+import { UserRoundCheck } from "lucide-react";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
@@ -135,4 +135,4 @@ export const SigninTab: Tab = ({
 
 SigninTab.displayName = "SigninTab";
 SigninTab.label = "登录";
-SigninTab.icon = Star;
+SigninTab.icon = UserRoundCheck;

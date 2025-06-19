@@ -120,12 +120,12 @@ export function MultiAgentVisualization({ className }: { className?: string }) {
       <div className="h-4 shrink-0"></div>
       <div className="flex h-6 w-full shrink-0 items-center justify-center">
         <div className="bg-muted/50 z-[200] flex rounded-3xl px-4 py-2">
-          <Tooltip title="Move to the previous step">
+          <Tooltip title="上一步">
             <Button variant="ghost" onClick={prevStep}>
               <ChevronLeft className="size-5" />
             </Button>
           </Tooltip>
-          <Tooltip title="Play / Pause">
+          <Tooltip title="开始 / 暂停">
             <Button variant="ghost" onClick={togglePlay}>
               {playing ? (
                 <Pause className="size-5" />
@@ -134,7 +134,7 @@ export function MultiAgentVisualization({ className }: { className?: string }) {
               )}
             </Button>
           </Tooltip>
-          <Tooltip title="Move to the next step">
+          <Tooltip title="下一步">
             <Button
               variant="ghost"
               onClick={() => {
@@ -158,7 +158,7 @@ export function MultiAgentVisualization({ className }: { className?: string }) {
               }}
             />
           </div>
-          <Tooltip title="Toggle fullscreen">
+          <Tooltip title="切换全屏">
             <Button
               variant="ghost"
               size="icon"
@@ -192,7 +192,7 @@ function CircleNode({ data }: { data: { label: string; active: boolean } }) {
       <div className="flex h-10 w-10 items-center justify-center rounded-full border bg-[var(--xy-node-background-color-default)]">
         <p className="text-xs">{data.label}</p>
       </div>
-      {data.label === "Start" && (
+      {data.label === "开始" && (
         <Handle
           className="invisible"
           type="source"
@@ -200,7 +200,7 @@ function CircleNode({ data }: { data: { label: string; active: boolean } }) {
           id="right"
         />
       )}
-      {data.label === "End" && (
+      {data.label === "结束" && (
         <Handle
           className="invisible"
           type="target"
