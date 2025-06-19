@@ -20,7 +20,7 @@ const caseStudies = [
     description: "研究“红尘一骑妃子笑”的历史典故与文化解读",
   },
   {
-    id: "yc-test-01",
+    id: "yc-js",
     icon: Hand,
     title: "云创AI测试",
     description: "云创AI测试",

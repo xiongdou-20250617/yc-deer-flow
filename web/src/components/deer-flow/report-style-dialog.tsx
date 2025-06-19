@@ -68,11 +68,10 @@ export function ReportStyleDialog() {
         title={
           <div>
             <h3 className="mb-2 font-bold">
-              Writing Style: {currentStyleConfig.label}
+              写作风格: {currentStyleConfig.label}
             </h3>
             <p>
-              Choose the writing style for your research reports. Different
-              styles are optimized for different audiences and purposes.
+              为你的研究报告选择写作风格。不同风格针对不同受众与用途进行了优化。
             </p>
           </div>
         }
@@ -88,10 +87,9 @@ export function ReportStyleDialog() {
       </Tooltip>
       <DialogContent className="sm:max-w-[500px]">
         <DialogHeader>
-          <DialogTitle>Choose Writing Style</DialogTitle>
+          <DialogTitle>选择写作风格</DialogTitle>
           <DialogDescription>
-            Select the writing style for your research reports. Each style is
-            optimized for different audiences and purposes.
+            为你的研究报告选择写作风格。每种风格均针对不同受众与用途进行了优化。
           </DialogDescription>
         </DialogHeader>
         <div className="grid gap-3 py-4">

@@ -133,8 +133,8 @@ const MessageInput = forwardRef<MessageInputRef, MessageInputProps>(
         Placeholder.configure({
           showOnlyCurrent: false,
           placeholder: provider
-            ? "What can I do for you? \nYou may refer to RAG resources by using @."
-            : "What can I do for you?",
+            ? "请问您需要什么帮助？ \n 您可以通过@符号引用RAG相关资源。"
+            : "请问您需要什么帮助？",
           emptyEditorClass: "placeholder",
         }),
         Extension.create({
