@@ -1,45 +1,45 @@
-# 🦌 [About DeerFlow](https://github.com/bytedance/deer-flow)
+# 🦌 [关于云创AI](https://github.com/bytedance/deer-flow)
 
-> **From Open Source, Back to Open Source**
+> **源于开源，回馈开源**
 
-**DeerFlow** (**D**eep **E**xploration and **E**fficient **R**esearch **Flow**) is a community-driven AI automation framework inspired by the remarkable contributions of the open source community. Our mission is to seamlessly integrate language models with specialized tools for tasks such as web search, crawling, and Python code execution—all while giving back to the community that made this innovation possible.
-
----
-
-## 🌟 GitHub Repository
-
-Explore DeerFlow on GitHub: [github.com/bytedance/deer-flow](https://github.com/bytedance/deer-flow)
+**云创AI**（**云**端智能 **创**新 **AI**）是一个社区驱动的AI自动化框架，其灵感来源于开源社区的卓越贡献。我们的使命是将语言模型与专业工具（如网络搜索、爬虫和Python代码执行）无缝集成，同时回馈使这一创新成为可能的开源社区。
 
 ---
 
-## 📜 License
+## 🌟 GitHub仓库
 
-DeerFlow is proudly open source and distributed under the **MIT License**.
+访问云创AI的GitHub仓库：[github.com/bytedance/deer-flow](https://github.com/bytedance/deer-flow)
 
 ---
 
-## 🙌 Acknowledgments
+## 📜 许可证
 
-We extend our heartfelt gratitude to the open source projects and contributors who have made DeerFlow a reality. We truly stand on the shoulders of giants.
+云创AI采用**MIT许可证**开源发布。
 
-### Core Frameworks
-- **[LangChain](https://github.com/langchain-ai/langchain)**: A phenomenal framework that powers our LLM interactions and chains.
-- **[LangGraph](https://github.com/langchain-ai/langgraph)**: Enabling sophisticated multi-agent orchestration.
-- **[Next.js](https://nextjs.org/)**: A cutting-edge framework for building web applications.
+---
 
-### UI Libraries
-- **[Shadcn](https://ui.shadcn.com/)**: Minimalistic components that power our UI.
-- **[Zustand](https://zustand.docs.pmnd.rs/)**: A stunning state management library.
-- **[Framer Motion](https://www.framer.com/motion/)**: An amazing animation library.
-- **[React Markdown](https://www.npmjs.com/package/react-markdown)**: Exceptional markdown rendering with customizability.
-- **[SToneX](https://github.com/stonexer)**: For his invaluable contribution to token-by-token visual effects.
+## 🙌 致谢
 
-These outstanding projects form the backbone of DeerFlow and exemplify the transformative power of open source collaboration.
+我们衷心感谢使云创AI成为现实的开源项目和贡献者。我们确实是站在巨人的肩膀上。
 
-### Special Thanks
-Finally, we want to express our heartfelt gratitude to the core authors of `DeerFlow`:
+### 核心框架
+- **[LangChain](https://github.com/langchain-ai/langchain)**：驱动我们LLM交互和链式操作的杰出框架
+- **[LangGraph](https://github.com/langchain-ai/langgraph)**：实现复杂多智能体编排
+- **[Next.js](https://nextjs.org/)**：构建Web应用的尖端框架
+
+### UI库
+- **[Shadcn](https://ui.shadcn.com/)**：支撑我们UI的极简组件
+- **[Zustand](https://zustand.docs.pmnd.rs/)**：出色的状态管理库
+- **[Framer Motion](https://www.framer.com/motion/)**：惊艳的动画库
+- **[React Markdown](https://www.npmjs.com/package/react-markdown)**：具有高度可定制性的卓越Markdown渲染
+- **[SToneX](https://github.com/stonexer)**：对逐令牌可视化效果的宝贵贡献
+
+这些杰出的项目构成了云创AI的基石，展现了开源协作的变革力量。
+
+### 特别感谢
+最后，我们要向`云创AI`的核心作者表达最诚挚的谢意：
 
 - **[Daniel Walnut](https://github.com/hetaoBackend/)**
 - **[Henry Li](https://github.com/magiccube/)**
 
-Without their vision, passion and dedication, `DeerFlow` would not be what it is today.
+没有他们的远见、热情和奉献精神，就不会有今天的`云创AI`。

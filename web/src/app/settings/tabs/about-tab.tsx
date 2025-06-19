@@ -13,3 +13,5 @@ export const AboutTab: Tab = () => {
 };
 AboutTab.icon = BadgeInfo;
 AboutTab.displayName = "About";
+AboutTab.label = '关于我们';
+

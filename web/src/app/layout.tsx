@@ -14,9 +14,9 @@ import { env } from "~/env";
 import { Toaster } from "../components/deer-flow/toaster";
 
 export const metadata: Metadata = {
-  title: "🦌 DeerFlow",
+  title: "广州云创",
   description:
-    "Deep Exploration and Efficient Research, an AI tool that combines language models with specialized tools for research tasks.",
+    "深度探索和高效研究，一种将语言模型与专门的研究工具相结合的人工智能工具。",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
@@ -45,7 +45,7 @@ export default async function RootLayout({
           `}
         </Script>
       </head>
-      <body className="bg-app">
+      <body className="bg-app" suppressHydrationWarning={true}>
         <ThemeProviderWrapper>{children}</ThemeProviderWrapper>
         <Toaster />
         {

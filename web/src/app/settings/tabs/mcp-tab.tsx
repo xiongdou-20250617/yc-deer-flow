@@ -70,19 +70,17 @@ export const MCPTab: Tab = ({ settings, onChange }) => {
     <div className="flex flex-col gap-4">
       <header>
         <div className="flex items-center justify-between gap-2">
-          <h1 className="text-lg font-medium">MCP Servers</h1>
+          <h1 className="text-lg font-medium">MCP 服务</h1>
           <AddMCPServerDialog onAdd={handleAddServers} />
         </div>
         <div className="text-muted-foreground markdown text-sm">
-          The Model Context Protocol boosts DeerFlow by integrating external
-          tools for tasks like private domain searches, web browsing, food
-          ordering, and more. Click here to
+          模型上下文协议通过集成外部工具来执行私有域搜索、网页浏览、食品订购等任务，从而增强了云创AI。 点击此处
           <a
             className="ml-1"
             target="_blank"
             href="https://modelcontextprotocol.io/"
           >
-            learn more about MCP.
+            学习更多有关MCP.
           </a>
         </div>
       </header>
@@ -139,7 +137,7 @@ export const MCPTab: Tab = ({ settings, onChange }) => {
                     <div className="text-lg font-medium">{server.name}</div>
                     {!server.enabled && (
                       <div className="bg-primary text-primary-foreground h-fit rounded px-1.5 py-0.5 text-xs">
-                        Disabled
+                        禁用
                       </div>
                     )}
                     <div className="bg-primary text-primary-foreground h-fit rounded px-1.5 py-0.5 text-xs">
@@ -147,7 +145,7 @@ export const MCPTab: Tab = ({ settings, onChange }) => {
                     </div>
                     {isNew && (
                       <div className="bg-primary text-primary-foreground h-fit rounded px-1.5 py-0.5 text-xs">
-                        New
+                        新增
                       </div>
                     )}
                   </div>
@@ -181,6 +179,7 @@ export const MCPTab: Tab = ({ settings, onChange }) => {
 MCPTab.icon = Blocks;
 MCPTab.badge = "Beta";
 MCPTab.displayName = "MCP";
+MCPTab.label = "MCP";
 
 function mergeServers(
   existing: MCPServerMetadata[],
