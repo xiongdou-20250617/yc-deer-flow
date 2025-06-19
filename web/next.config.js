@@ -1,3 +1,11 @@
+/*
+ * @Author: xiongdou-20250617 1126927171@qq.com
+ * @Date: 2025-06-17 15:20:20
+ * @LastEditors: xiongdou-20250617 1126927171@qq.com
+ * @LastEditTime: 2025-06-19 11:53:48
+ * @FilePath: \web\next.config.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 /**
  * Run `build` or `dev` with `SKIP_ENV_VALIDATION` to skip env validation. This is especially useful
  * for Docker builds.
@@ -26,6 +34,16 @@ const config = {
     },
   },
 
+  // 添加API代理配置
+  async rewrites() {
+    return [
+      {
+        source: '/api/:path*',
+        destination: 'https://n2.antoma.cn/:path*',
+      },
+    ];
+  },
+
   // For production mode
   webpack: (config) => {
     config.module.rules.push({
@@ -35,7 +53,6 @@ const config = {
     return config;
   },
 
-  // ... rest of the configuration.
   output: "standalone",
 };
 

@@ -57,6 +57,7 @@ export const SignupTab: Tab = ({
       const response = await apiClient.post('/api/auth:signUp', {
         username: values.username,
         password: values.password,
+        confirm_password: values.confirm_password,
       });
 
       toast.success("注册成功", {
