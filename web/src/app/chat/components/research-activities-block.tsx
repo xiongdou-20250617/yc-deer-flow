@@ -251,7 +251,7 @@ function CrawlToolCall({ toolCall }: { toolCall: ToolCallRuntime }) {
           animated={toolCall.result === undefined}
         >
           <BookOpenText size={16} className={"mr-2"} />
-          <span>Reading</span>
+          <span>读取中</span>
         </RainbowText>
       </div>
       <ul className="mt-2 flex flex-wrap gap-4">
@@ -349,7 +349,7 @@ function PythonToolCall({ toolCall }: { toolCall: ToolCallRuntime }) {
           className="text-base font-medium italic"
           animated={toolCall.result === undefined}
         >
-          Running Python code
+          运行Python代码
         </RainbowText>
       </div>
       <div>
@@ -435,7 +435,7 @@ function MCPToolCall({ toolCall }: { toolCall: ToolCallRuntime }) {
                     className="pr-0.5 text-base font-medium italic"
                     animated={toolCall.result === undefined}
                   >
-                    Running {toolCall.name ? toolCall.name + "()" : "MCP tool"}
+                    运行中 {toolCall.name ? toolCall.name + "()" : "MCP tool"}
                   </RainbowText>
                 </div>
               </Tooltip>

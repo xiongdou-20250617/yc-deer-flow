@@ -188,7 +188,7 @@ function MessageListItem({
                 <Markdown
                   className={cn(
                     message.role === "user" &&
-                      "prose-invert not-dark:text-secondary dark:text-inherit",
+                    "prose-invert not-dark:text-secondary dark:text-inherit",
                   )}
                 >
                   {message?.content}
@@ -359,7 +359,7 @@ function ThoughtBlock({
                   isStreaming ? "text-primary" : "text-foreground",
                 )}
               >
-                Deep Thinking
+                深度思考中
               </span>
               {isStreaming && <LoadingAnimation className="ml-2 scale-75" />}
               <div className="flex-grow" />
@@ -479,11 +479,10 @@ function PlanCard({
             <CardHeader>
               <CardTitle>
                 <Markdown animated={message.isStreaming}>
-                  {`### ${
-                    plan.title !== undefined && plan.title !== ""
+                  {`### ${plan.title !== undefined && plan.title !== ""
                       ? plan.title
-                      : "Deep Research"
-                  }`}
+                      : "深度研究"
+                    }`}
                 </Markdown>
               </CardTitle>
             </CardHeader>
