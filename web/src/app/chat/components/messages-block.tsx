@@ -131,7 +131,7 @@ export function MessagesBlock({ className }: { className?: string }) {
             >
               <div className="flex items-center justify-between">
                 <div className="flex flex-grow items-center">
-                  {responding && (
+                  {/* {responding && (
                     <motion.div
                       className="ml-3"
                       initial={{ opacity: 0, scale: 0.8 }}
@@ -148,7 +148,7 @@ export function MessagesBlock({ className }: { className?: string }) {
                         className="h-[42px] w-[42px] object-contain"
                       />
                     </motion.div>
-                  )}
+                  )} */}
                   <CardHeader className={cn("flex-grow", responding && "pl-3")}>
                     <CardTitle>
                       <RainbowText animated={responding}>

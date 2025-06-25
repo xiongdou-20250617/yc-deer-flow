@@ -260,9 +260,9 @@ function ResearchCard({
   const openResearchId = useStore((state) => state.openResearchId);
   const state = useMemo(() => {
     if (hasReport) {
-      return reportGenerating ? "Generating report..." : "Report generated";
+      return reportGenerating ? "正在生成报告中..." : "报告生成完毕";
     }
-    return "Researching...";
+    return "研究中...";
   }, [hasReport, reportGenerating]);
   const msg = useResearchMessage(researchId);
   const title = useMemo(() => {
@@ -284,7 +284,7 @@ function ResearchCard({
       <CardHeader>
         <CardTitle>
           <RainbowText animated={state !== "Report generated"}>
-            {title !== undefined && title !== "" ? title : "Deep Research"}
+            {title !== undefined && title !== "" ? title : "深度研究"}
           </RainbowText>
         </CardTitle>
       </CardHeader>
@@ -297,7 +297,7 @@ function ResearchCard({
             variant={!openResearchId ? "default" : "outline"}
             onClick={handleOpen}
           >
-            {researchId !== openResearchId ? "Open" : "Close"}
+            {researchId !== openResearchId ? "打开研究" : "关闭研究"}
           </Button>
         </div>
       </CardFooter>
@@ -413,7 +413,7 @@ function ThoughtBlock({
   );
 }
 
-const GREETINGS = ["Cool", "Sounds great", "Looks good", "Great", "Awesome"];
+const GREETINGS = ["酷", "听起来很棒", "看起来不错", "太好了", "厉害"];
 function PlanCard({
   className,
   message,
@@ -453,7 +453,7 @@ function PlanCard({
   const handleAccept = useCallback(async () => {
     if (onSendMessage) {
       onSendMessage(
-        `${GREETINGS[Math.floor(Math.random() * GREETINGS.length)]}! ${Math.random() > 0.5 ? "Let's get started." : "Let's start."}`,
+        `${GREETINGS[Math.floor(Math.random() * GREETINGS.length)]}! ${Math.random() > 0.5 ? "立即开始" : "点击开始"}`,
         {
           interruptFeedback: "accepted",
         },

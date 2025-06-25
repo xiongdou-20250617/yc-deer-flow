@@ -13411,6 +13411,10 @@ data: {"thread_id": "Tzu0oCMgjrI5UUFXQ646I", "agent": "reporter", "id": "run-367
 event: message_chunk
 data: {"thread_id": "Tzu0oCMgjrI5UUFXQ646I", "agent": "reporter", "id": "run-3679b771-9bf9-4912-812b-87fa56d740a0", "role": "assistant", "content": "308"}
 
+
+event: message_chunk
+data: {"thread_id": "Tzu0oCMgjrI5UUFXQ646I", "agent": "reporter", "id": "run-3679b771-9bf9-4912-812b-87fa56d740a0", "role": "assistant", "finish_reason": "stop"}
+
 event: message_chunk
 data: {"thread_id": "Tzu0oCMgjrI5UUFXQ646I", "agent": "reporter", "id": "run-3679b771-9bf9-4912-812b-87fa56d740a0", "role": "assistant", "content": "", "finish_reason": "stop"}
 

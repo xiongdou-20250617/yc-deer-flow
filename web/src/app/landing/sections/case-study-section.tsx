@@ -28,10 +28,16 @@ const caseStudies = [
     description: "研究“红尘一骑妃子笑”的历史典故与文化解读",
   },
   {
-    id: "yc-js",
+    id: "yc-lz",
+    icon: Cherry,
+    title: "研究'红尘一骑妃子笑'的由来",
+    description: "研究“红尘一骑妃子笑”的历史典故与文化解读",
+  },
+  {
+    id: "yc-gkx",
     icon: Hand,
-    title: "云创AI测试",
-    description: "云创AI测试",
+    title: "2025年广东省高考普招分数线",
+    description: "用户询问2025年广东省高考普通招生分数线，已有详细分数线公布信息。",
   },
   {
     id: "yc-test-01",
