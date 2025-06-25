@@ -215,11 +215,11 @@ export function InputBox({
               title={
                 <div>
                   <h3 className="mb-2 font-bold">
-                    Deep Thinking Mode: {enableDeepThinking ? "On" : "Off"}
+                  深度思考模式: {enableDeepThinking ? "开" : "关"}
                   </h3>
                   <p>
-                    When enabled, DeerFlow will use reasoning model (
-                    {reasoningModel}) to generate more thoughtful plans.
+                    启用后, 云创AI将调用推理模型 (
+                    {reasoningModel}) ，生成更全面周密的计划。
                   </p>
                 </div>
               }
@@ -234,7 +234,7 @@ export function InputBox({
                   setEnableDeepThinking(!enableDeepThinking);
                 }}
               >
-                <Lightbulb /> Deep Thinking
+                <Lightbulb /> 深度思考
               </Button>
             </Tooltip>
           )}
@@ -244,12 +244,10 @@ export function InputBox({
             title={
               <div>
                 <h3 className="mb-2 font-bold">
-                  Investigation Mode: {backgroundInvestigation ? "On" : "Off"}
+                调查模式: {backgroundInvestigation ? "开" : "关"}
                 </h3>
                 <p>
-                  When enabled, DeerFlow will perform a quick search before
-                  planning. This is useful for researches related to ongoing
-                  events and news.
+                启用后，云创AI将在制定计划前执行快速检索。此功能适用于与实时事件或新闻相关的研究工作。
                 </p>
               </div>
             }

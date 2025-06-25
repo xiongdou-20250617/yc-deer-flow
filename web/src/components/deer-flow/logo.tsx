@@ -6,7 +6,7 @@ import Link from "next/link";
 export function Logo() {
   return (
     <Link
-      className="opacity-70 transition-opacity duration-300 hover:opacity-100"
+      className="flex items-center opacity-70 transition-opacity duration-300 hover:opacity-100"
       href="/"
     >
       <img src="/images/logo-1.png" className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" style={{

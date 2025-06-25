@@ -1,0 +1,30 @@
+###
+ # @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ # @Date: 2025-05-20 18:02:15
+ # @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ # @LastEditTime: 2025-06-11 19:34:12
+ # @FilePath: \web\.env.example
+ # @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+### 
+# Since the ".env" file is gitignored, you can use the ".env.example" file to
+# build a new ".env" file when you clone the repo. Keep this file up-to-date
+# when you add new variables to `.env`.
+
+# This file will be committed to version control, so make sure not to have any
+# secrets in it. If you are cloning this repo, create a copy of this file named
+# ".env" and populate it with your secrets.
+
+# When adding additional environment variables, the schema in "/src/env.js"
+# should be updated accordingly.
+
+# Example:
+# SERVERVAR="foo"
+# NEXT_PUBLIC_CLIENTVAR="bar"
+
+NEXT_PUBLIC_API_URL=http://localhost:8000/api
+NEXT_PUBLIC_API_BASE_URL=http://8.138.116.232:13002/yc2
+NEXT_PUBLIC_XAPP=a_dbj3mff2iy8
+
+# Github
+GITHUB_OAUTH_TOKEN=xxxx
+

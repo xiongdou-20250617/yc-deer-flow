@@ -21,26 +21,26 @@ import { Tooltip } from "./tooltip";
 const REPORT_STYLES = [
   {
     value: "academic" as const,
-    label: "Academic",
-    description: "Formal, objective, and analytical with precise terminology",
+    label: "学术AI",
+    description: "正式、客观、分析性强，使用精准术语",
     icon: GraduationCap,
   },
   {
     value: "popular_science" as const,
-    label: "Popular Science",
-    description: "Engaging and accessible for general audience",
+    label: "科普风格",
+    description: "通俗易懂，适合大众读者",
     icon: FileText,
   },
   {
     value: "news" as const,
-    label: "News",
-    description: "Factual, concise, and impartial journalistic style",
+    label: "新闻风格",
+    description: "事实准确、简洁明了、立场中立",
     icon: Newspaper,
   },
   {
     value: "social_media" as const,
-    label: "Social Media",
-    description: "Concise, attention-grabbing, and shareable",
+    label: "社交媒体风格",
+    description: "简短吸睛，适合分享传播",
     icon: Users,
   },
 ];

@@ -1,8 +1,8 @@
 /*
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2025-06-11 19:48:55
- * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2025-06-17 14:03:45
+ * @LastEditors: xiongdou-20250617 1126927171@qq.com
+ * @LastEditTime: 2025-06-24 16:48:45
  * @FilePath: \web\src\lib\apiClient.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -34,7 +34,7 @@ class ApiClient {
     this.instance.interceptors.request.use(
       (config: InternalAxiosRequestConfig) => {
         const token = localStorage.getItem('token');
-        debugger;
+        // debugger;
         return {
           ...config,
           headers: {

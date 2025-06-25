@@ -147,7 +147,7 @@ export async function sendMessage(
       }
     }
   } catch {
-    toast("An error occurred while generating the response. Please try again.");
+    toast("生成响应时出错。请重试。");
     // Update message status.
     // TODO: const isAborted = (error as Error).name === "AbortError";
     if (messageId != null) {
