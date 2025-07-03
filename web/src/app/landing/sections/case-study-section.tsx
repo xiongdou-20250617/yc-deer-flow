@@ -2,7 +2,7 @@
  * @Author: xiongdou-20250617 1126927171@qq.com
  * @Date: 2025-06-24 16:43:08
  * @LastEditors: xiongdou-20250617 1126927171@qq.com
- * @LastEditTime: 2025-06-24 17:09:11
+ * @LastEditTime: 2025-07-03 16:20:50
  * @FilePath: \web\src\app\landing\sections\case-study-section.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -28,16 +28,10 @@ const caseStudies = [
     description: "研究“红尘一骑妃子笑”的历史典故与文化解读",
   },
   {
-    id: "yc-lz",
-    icon: Cherry,
-    title: "研究'红尘一骑妃子笑'的由来",
-    description: "研究“红尘一骑妃子笑”的历史典故与文化解读",
-  },
-  {
-    id: "yc-gkx",
+    id: "yc-gztc",
     icon: Hand,
-    title: "2025年广东省高考普招分数线",
-    description: "用户询问2025年广东省高考普通招生分数线，已有详细分数线公布信息。",
+    title: "广州传统美食全攻略",
+    description: "用户要求列举广州的传统食品，根据提供的背景调查结果，已经收集到足够的信息来列举广州的传统食品。",
   },
   {
     id: "yc-test-01",

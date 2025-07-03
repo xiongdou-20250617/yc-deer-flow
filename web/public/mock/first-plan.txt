@@ -1124,4 +1124,4 @@ event: message_chunk
 data: {"thread_id": "WBz9-nvt6t3jTVMqUbOqh", "agent": "planner", "id": "run-e2374da4-49a1-4760-89cb-66fe6c53f7b7", "role": "assistant"}
 
 event: interrupt
-data: {"thread_id": "WBz9-nvt6t3jTVMqUbOqh", "id": "human_feedback:bb5d6031-3995-f6b9-eccd-16934e28d62c", "role": "assistant", "content": "Please Review the Plan.", "finish_reason": "interrupt", "options": [{"text": "Edit plan", "value": "edit_plan"}, {"text": "Start research", "value": "accepted"}]}
+data: {"thread_id": "WBz9-nvt6t3jTVMqUbOqh", "id": "human_feedback:bb5d6031-3995-f6b9-eccd-16934e28d62c", "role": "assistant", "content": "Please Review the Plan.", "finish_reason": "interrupt", "options": [{"text": "编辑计划", "value": "edit_plan"}, {"text": "开始研究", "value": "accepted"}]}

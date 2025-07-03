@@ -1718,7 +1718,7 @@ event: message_chunk
 data: {"thread_id": "cUSftQaZJ7wu-Ogl2ripq", "agent": "planner", "id": "run-05471da5-bc2b-4816-9807-9a21e9ef19c2", "role": "assistant"}
 
 event: interrupt
-data: {"thread_id": "cUSftQaZJ7wu-Ogl2ripq", "id": "human_feedback:21b90fc3-9880-8d69-bee9-864b63211427", "role": "assistant", "content": "Please Review the Plan.", "finish_reason": "interrupt", "options": [{"text": "Edit plan", "value": "edit_plan"}, {"text": "Start research", "value": "accepted"}]}
+data: {"thread_id": "cUSftQaZJ7wu-Ogl2ripq", "id": "human_feedback:21b90fc3-9880-8d69-bee9-864b63211427", "role": "assistant", "content": "Please Review the Plan.", "finish_reason": "interrupt", "options": [{"text": "编辑计划", "value": "edit_plan"}, {"text": "开始研究", "value": "accepted"}]}
 
 event: message_chunk
 data: {"thread_id": "cUSftQaZJ7wu-Ogl2ripq", "agent": "researcher", "id": "run-ba48e8f0-8cbf-4f6b-a1d3-3c54d8be91c9", "role": "assistant"}

@@ -1,3 +1,11 @@
+/*
+ * @Author: xiongdou-20250617 1126927171@qq.com
+ * @Date: 2025-06-24 16:43:08
+ * @LastEditors: xiongdou-20250617 1126927171@qq.com
+ * @LastEditTime: 2025-07-03 15:38:57
+ * @FilePath: \web\src\app\landing\components\jumbotron.tsx
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 // Copyright (c) 2025 Bytedance Ltd. and/or its affiliates
 // SPDX-License-Identifier: MIT
 
@@ -41,7 +49,7 @@ export function Jumbotron() {
         </div>
       </div>
       <div className="absolute bottom-8 flex text-xs opacity-50">
-        <p>* DEER代表深度探索与高效研究。</p>
+        <p>* 深度探索与高效研究。</p>
       </div>
     </section>
   );

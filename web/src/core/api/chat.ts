@@ -116,7 +116,8 @@ async function* chatReplayStream(
     const [eventRaw, dataRaw] = chunk.split("\n") as [string, string];
     const [, event] = eventRaw.split("event: ", 2) as [string, string];
     const [, data] = dataRaw.split("data: ", 2) as [string, string];
-
+    console.log("event",event)
+    console.log("data:",JSON.parse(data))
     try {
       const chatEvent = {
         type: event,

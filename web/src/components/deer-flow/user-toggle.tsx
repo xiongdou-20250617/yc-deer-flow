@@ -77,7 +77,7 @@ export const UserToggle: React.FC = () => {
 
       {user ? (
         <DropdownMenu>
-          <Tooltip title="用户信息">
+          <Tooltip title={user?.nickname || user?.username}>
             <DropdownMenuTrigger asChild>
               <Button variant="ghost" size="icon"> 
                 <UserRound className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
@@ -87,14 +87,6 @@ export const UserToggle: React.FC = () => {
             </DropdownMenuTrigger>
           </Tooltip>
           <DropdownMenuContent align="end">
-
-            <DropdownMenuItem onClick={() => handleLogout()}>
-              {/* <LogOut className="mr-2 h-4 w-4" /> */}
-              <span >
-                {user?.nickname || user?.username}
-              </span>
-            </DropdownMenuItem>
-
             <DropdownMenuItem onClick={() => handleLogout()}>
               <LogOut className="mr-2 h-4 w-4" />
               <span >

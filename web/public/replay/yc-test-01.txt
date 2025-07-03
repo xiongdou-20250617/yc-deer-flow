@@ -16,6 +16,5 @@ data: {"thread_id": "LmC3xxJCFljoFXggnmvst", "agent": "researcher", "id": "run-8
 event: message_chunk
 data: {"thread_id": "LmC3xxJCFljoFXggnmvst", "agent": "researcher", "id": "run-2af9f798-519c-487a-bbce-4794c05b7c89", "role": "assistant", "content": "Abstract Library](https://miro.medium.com/v2/resize:fit:1024/1*b2hDJZiQHsTS22FlRlJEUA.jpeg)\n", "finish_reason": "stop"}
 
-
 event: message_chunk
 data: {"thread_id": "LmC3xxJCFljoFXggnmvst", "agent": "reporter", "id": "run-a0a0a9e5-201f-4ee8-aa5f-71ad07a2db13", "role": "assistant", "content": "prompt.py)\n", "finish_reason": "stop"}

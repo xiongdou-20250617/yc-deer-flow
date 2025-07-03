@@ -14850,4 +14850,3 @@ data: {"thread_id": "qnk66l8yNg_Y1PUiP4JgH", "agent": "reporter", "id": "run-959
 
 event: message_chunk
 data: {"thread_id": "qnk66l8yNg_Y1PUiP4JgH", "agent": "reporter", "id": "run-9591681a-0c4c-4549-b6b6-791ba5908ca6", "role": "assistant", "finish_reason": "stop"}
-
